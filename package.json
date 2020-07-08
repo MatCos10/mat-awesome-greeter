@@ -1,6 +1,6 @@
 {
-  "name": "my-awesome-greeter",
-  "version": "1.0.0",
+  "name": "mat-awesome-typelib",
+  "version": "6.0.0",
   "description": "A nice greeter",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -31,6 +31,7 @@
   "homepage": "https://github.com/MatCos10/mat-awesome-greeter#readme",
   "devDependencies": {
     "@types/jest": "^26.0.4",
+    "@types/react": "^16.9.41",
     "jest": "^26.1.0",
     "prettier": "^2.0.5",
     "ts-jest": "^26.1.1",
@@ -40,5 +41,10 @@
   },
   "files": [
     "lib/**/*"
-  ]
+  ],
+  "dependencies": {
+    "@fluentui/react": "^7.121.9",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
 }
